@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this tool or the memory error card, please cite the paper."
+title: "stage-audit: offline stage audit for memory errors"
+type: software
+authors:
+  - family-names: "Goyal"
+    given-names: "Dev D."
+    orcid: "https://orcid.org/0009-0009-9132-744X"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Tracing False Speaker Links Through Retrieval and Answering"
+  authors:
+    - family-names: "Goyal"
+      given-names: "Dev D."
+      orcid: "https://orcid.org/0009-0009-9132-744X"
+  collection-title: "Proceedings of the NORA Workshop (Knowledge Graphs and Agentic Systems Interplay) at AACL-IJCNLP 2026"
+  year: 2026

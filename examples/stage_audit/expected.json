@@ -1,0 +1,146 @@
+{
+  "broadcast": {
+    "baseline": [],
+    "no_memory": []
+  },
+  "context_change_basis": "exact serialized context SHA-256",
+  "coverage_limit": "Joins and observed order-by-draw grids are complete. Entire missing draws, orders, questions, or histories cannot be inferred without an external design manifest.",
+  "optional_stages": {
+    "reached": false,
+    "references": false
+  },
+  "schema_version": 1,
+  "weighting": "equal history, equal question within history, equal draw within question, equal order within draw; separate workloads",
+  "workloads": {
+    "toy": {
+      "accuracy_difference": 0.0,
+      "histories": 2,
+      "metrics": {
+        "baseline_correct": {
+          "count": 1,
+          "mass": 0.16666666666666666
+        },
+        "baseline_invalid": {
+          "count": 0,
+          "mass": 0.0
+        },
+        "changed_answer": {
+          "count": 2,
+          "mass": 0.3333333333333333
+        },
+        "changed_correct": {
+          "count": 1,
+          "mass": 0.16666666666666666
+        },
+        "changed_invalid": {
+          "count": 1,
+          "mass": 0.16666666666666666
+        },
+        "context_changed": {
+          "count": 4,
+          "mass": 1.0
+        },
+        "context_ids_changed": {
+          "count": 4,
+          "mass": 1.0
+        },
+        "gain": {
+          "count": 1,
+          "mass": 0.16666666666666666
+        },
+        "invalid_involved": {
+          "count": 1,
+          "mass": 0.16666666666666666
+        },
+        "loss": {
+          "count": 1,
+          "mass": 0.16666666666666666
+        },
+        "no_memory_invalid": {
+          "count": 0,
+          "mass": 0.0
+        },
+        "shortlist_membership_changed": {
+          "count": 4,
+          "mass": 1.0
+        },
+        "shortlist_order_only_changed": {
+          "count": 0,
+          "mass": 0.0
+        },
+        "shortlist_sequence_changed": {
+          "count": 4,
+          "mass": 1.0
+        },
+        "stable_answer": {
+          "count": 1,
+          "mass": 0.5
+        },
+        "valid_correct_to_correct": {
+          "count": 0,
+          "mass": 0.0
+        },
+        "valid_correct_to_wrong": {
+          "count": 0,
+          "mass": 0.0
+        },
+        "valid_wrong_to_correct": {
+          "count": 1,
+          "mass": 0.16666666666666666
+        },
+        "valid_wrong_to_different_wrong": {
+          "count": 1,
+          "mass": 0.16666666666666666
+        },
+        "valid_wrong_to_same_wrong": {
+          "count": 1,
+          "mass": 0.5
+        }
+      },
+      "no_memory_given_context_change": {
+        "changed_answer": {
+          "agreement": {
+            "baseline": {
+              "count": 1,
+              "mass": 0.16666666666666666,
+              "rate": 0.5
+            },
+            "changed": {
+              "count": 1,
+              "mass": 0.16666666666666666,
+              "rate": 0.5
+            }
+          },
+          "context_changed_count": 2,
+          "context_changed_mass": 0.3333333333333333,
+          "invalid_no_memory_count": 0,
+          "invalid_no_memory_mass": 0.0,
+          "valid_no_memory_count": 2,
+          "valid_no_memory_mass": 0.3333333333333333
+        },
+        "stable_answer": {
+          "agreement": {
+            "baseline": {
+              "count": 1,
+              "mass": 0.5,
+              "rate": 1.0
+            },
+            "changed": {
+              "count": 1,
+              "mass": 0.5,
+              "rate": 1.0
+            }
+          },
+          "context_changed_count": 1,
+          "context_changed_mass": 0.5,
+          "invalid_no_memory_count": 0,
+          "invalid_no_memory_mass": 0.0,
+          "valid_no_memory_count": 1,
+          "valid_no_memory_mass": 0.5
+        }
+      },
+      "paired_records": 4,
+      "questions": 4
+    }
+  }
+}
